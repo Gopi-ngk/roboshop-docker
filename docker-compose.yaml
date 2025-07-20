@@ -16,8 +16,6 @@ services:
   redis:
     image: redis:7.0
     container_name: redis
-    volumes:
-    - redis:/data
   user:
     image: gopi1827/user:v1
     container_name: user
